@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-admob-free",
-  "version": "0.13.0",
+  "name": "lycwed-cordova-plugin-admob-free",
+  "version": "1.0.0",
   "description": "Cordova AdMob Plugin for Google AdMob",
   "scripts": {
     "prepublish": "run-s clean build",
@@ -21,14 +21,14 @@
     "lint:spaces": "lintspaces -n -t -d spaces *.* src/**/*.* tests/**/*.* examples/*/*.* examples/*/www/*.*"
   },
   "cordova": {
-    "id": "cordova-plugin-admob-free",
+    "id": "lycwed-cordova-plugin-admob-free",
     "platforms": [
       "android",
       "ios"
     ]
   },
-  "homepage": "https://ratson.github.io/cordova-plugin-admob-free/",
-  "repository": "ratson/cordova-plugin-admob-free",
+  "homepage": "https://lycwed.github.io/lycwed-cordova-plugin-admob-free/",
+  "repository": "lycwed/lycwed-cordova-plugin-admob-free",
   "keywords": [
     "cordova",
     "admob",
