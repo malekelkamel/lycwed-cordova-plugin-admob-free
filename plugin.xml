@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns:android="http://schemas.android.com/apk/res/android" id="lycwed-cordova-plugin-admob-free"
-    version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    version="1.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>Cordova AdMob Plugin</name>
     <description>Robust, reliable and easy to use Cordova Admob plugin for Android and iOS
         phone. Allows preloading and automatic loading of interstitials and banners plus more.
@@ -54,10 +54,8 @@
         <source-file src="src/android/AdMobConfig.java" target-dir="src/name/ratson/cordova/admob" />
         <source-file src="src/android/CordovaEventBuilder.java" target-dir="src/name/ratson/cordova/admob" />
 
-        <!-- cordova CLI using gradle and it working well -->
+        <framework src="com.google.android.gms:play-services-base:+" />
         <framework src="com.google.android.gms:play-services-ads:+" />
-        <!-- but unfortunately, build.phonegap.com, Intel XDK, and some other tools still use ant -->
-        <!-- dependency id="cordova-plugin-googleplayservices"/ -->
     </platform>
 
     <platform name="ios">

@@ -1,21 +1,7 @@
 {
   "name": "lycwed-cordova-plugin-admob-free",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Cordova AdMob Plugin for Google AdMob",
-  "scripts": {
-    "prepublish": "run-s clean build",
-    "postpublish": "run-s docs",
-    "pretest": "cross-env BABEL_ENV=test run-s build",
-    "test": "run-p test:* lint:*",
-    "test:cordova": "cordova-test",
-    "test:js": "jest",
-    "version": "sync-package-version --cordova-plugin",
-    "build": "cross-env NODE_ENV=production rollup -c -o www/admob.js",
-    "clean": "rimraf coverage dist www",
-    "lint": "run-p lint:*",
-    "lint:js": "eslint --ext js,md .",
-    "lint:spaces": "lintspaces -n -t -d spaces *.* src/**/*.* tests/**/*.* examples/*/*.* examples/*/www/*.*"
-  },
   "cordova": {
     "id": "lycwed-cordova-plugin-admob-free",
     "platforms": [
