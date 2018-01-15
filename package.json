@@ -10,7 +10,8 @@
     ]
   },
   "homepage": "https://lycwed.github.io/lycwed-cordova-plugin-admob-free/",
-  "repository": "lycwed/lycwed-cordova-plugin-admob-free",
+  "repository": "fubira/lycwed-cordova-plugin-admob-free",
+  "types": "./types/AdMob.d.ts",
   "keywords": [
     "cordova",
     "admob",
@@ -71,10 +72,12 @@
   },
   "files": [
     "*.js",
+    "*.ts",
     "*.md",
     "*.xml",
     "LICENSE",
     "src",
+    "types",
     "www"
   ],
   "browserslist": [
