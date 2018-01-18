@@ -790,6 +790,7 @@
     NSString* jsonData = @"{ 'adType':'interstitial' }";
     [self fireEvent:@"" event:@"admob.interstitial.events.EXIT_APP" withData:jsonData];
     [self fireEvent:@"" event:@"onLeaveToAd" withData:jsonData];
+    [self.viewController dismissViewControllerAnimated:NO completion:NULL];
 }
 
 - (void)interstitialDidReceiveAd:(GADInterstitial *)interstitial {
